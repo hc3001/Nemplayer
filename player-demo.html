@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+﻿<html>
+﻿    <head>
+﻿        <meta charset="utf-8">
+﻿        <title>music-player demo</title>
+        <link rel="stylesheet" href="src/css/style.css">
+﻿    </head>
+﻿    <body>
+﻿        <div class="contaier">
+            <!-- <div class=""></div> -->
+            <!-- <div class=""></div> -->
+            <div id='bgpic'>
+                <img src="src/pic/timg3.jpg" alt="pic">
+            </div>
+            <div class="BottomSqure">
+            </div>
+            <div id="hc-player">
+                <div class="player">
+﻿                    <audio src="" id='id-audio-player' autoplay="autoplay" preload="auto">
+﻿                </audio>
+                    <div class="audio-control">
+                        <div class="canvas">
+                            <canvas id="canvas"></canvas>
+                        </div>
+                        <div class="audio-pic">
+                            <img src="src/pic/start.png" alt="显示错误">
+                        </div>
+                    </div>
+                ﻿</div>
+                <div class="sounds_name">
+                </div>
+                <div class="controls">
+                    <div class="controls-voice">
+                        <input id="volume" name="volume" min="0" max="1" step="0.1" type="range" onchange="setVolume()">
+                    </div>
+                    <div class="controls-1">
+                        <img src="src/pic/share.png" alt="" class="share small">
+                        <img src="src/pic/others.png" alt="" class="others small">
+                        <img src="src/pic/circle.png" alt="" class="circle small">
+                    </div>
+                    <div class="controls-2">
+                        <img src="src/pic/back.png" alt="" class="back hcplay">
+                        <img src="src/pic/love.png" alt="" class="enjoy hcplay">
+                        <img src="src/pic/next.png" alt="" class="forward hcplay">
+                    </div>
+                 </div>
+             </div>
+        </div>
+        <script type="text/javascript" src="src/js/music1.js">
+        </script>
+﻿    </body>
+﻿</html>
