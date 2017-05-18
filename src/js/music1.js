@@ -56,7 +56,7 @@ var SongInsert = function (index) {
     SoundsName.insertAdjacentHTML('beforeend', d)
 }
 var StPause = function (control) {
-    var t = `file:///F:/javascript/project/music%20player/first/src/pic/${control}.png`
+    var t = `./src/pic/${control}.png`
     return t
 }
 var SongControl = function () {
@@ -152,7 +152,7 @@ var MyEnjoySong = function () {
 
 var _contains = function () {
     StartPause(function (name) {
-        var t = `file:///F:/javascript/project/music%20player/first/src/pic/${name}.png`
+        var t = `./src/pic/${name}.png`
         return t
     })
     FirstSong()
