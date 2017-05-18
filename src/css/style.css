@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contaier {
+    position: relative;
+    border: 4px white solid;
+    width: 320px;
+    height: 580px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 10px 76px;
+}
+#bgpic img {
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    z-index: -2;
+    filter: blur(6px);
+    opacity: 0.5;
+}
+
+/*img change*/
+.audio-pic {
+    margin: 0 auto;
+}
+.c_play {
+	filter: blur(1px) !important;
+}
+.audio-pic img {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+    top: -255px;
+}
+
+/* Volume */
+.controls-voice input {
+      display: block;
+      margin: 24px 21px;
+      width: 226px;
+      height: 2px;
+      outline: 0;
+      cursor: pointer;
+      box-shadow: 1px 1px 1px 1px #c2baba;
+      -webkit-appearance: none !important;
+      position: absolute;
+      bottom: -42px;
+      right: -19px;
+}
+.controls-voice input::-webkit-slider-thumb {
+    background: #AEAEAE;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    transition: 0.1s all linear;
+    -webkit-transition: 0.1s all linear;
+    -webkit-appearance: none !important;
+}
+div .hcplay {
+    width: 28px;
+    height: 31px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+/*canvas不随窗口变化而变化*/
+canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: -0.4px;
+}
+.controls {
+    position: absolute;
+    bottom: 38px;
+    left: 99px
+}
+.back {
+    width: 30px;
+    height: 30px;
+}
+img.hcplay {
+    width: 43px;
+    height: 43px;
+}
+.sounds_name {
+    text-align: center;
+    margin-top: -228px;
+}
+/*歌词样式*/
+.sounds_name {
+    font-family:inherit;
+    color: #564b4b;
+    font-style: oblique;
+    font-size: 17px;
+}
+/*调节控件按钮的位置*/
+img.back.hcplay {
+    cursor: pointer;
+    margin-left: -51px;
+}
+img.enjoy.hcplay {
+    cursor: pointer;
+    margin-left: 44px;
+}
+img.forward.hcplay {
+    cursor: pointer;
+    margin-left: 48px;
+}
+.BottomSqure {
+    background-color: #d1bdbd;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0px;
+}
+.controls-1 {
+    position: relative;
+    top: -15px;
+}
+img.small {
+    height: 18px;
+}
+img.share.small {
+    cursor: pointer;
+    margin-left: -10px;
+}
+img.circle.small {
+    cursor: pointer;
+    margin-left: 38px;
+}
+img.others.small {
+    cursor: pointer;
+    margin-left: 35px;
+}
